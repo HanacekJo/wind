@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.32126.317
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wind.UI", "Wind.UI\Wind.UI.csproj", "{9431D2F5-74E7-4A64-A66A-E45198F4B924}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logic", "Logic\Logic.csproj", "{787011BB-07EC-4D33-A52C-8559F132D83B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{9431D2F5-74E7-4A64-A66A-E45198F4B924}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9431D2F5-74E7-4A64-A66A-E45198F4B924}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9431D2F5-74E7-4A64-A66A-E45198F4B924}.Release|Any CPU.Build.0 = Release|Any CPU
+		{787011BB-07EC-4D33-A52C-8559F132D83B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{787011BB-07EC-4D33-A52C-8559F132D83B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{787011BB-07EC-4D33-A52C-8559F132D83B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{787011BB-07EC-4D33-A52C-8559F132D83B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
