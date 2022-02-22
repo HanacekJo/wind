@@ -4,15 +4,21 @@ using Logic;
 Console.WriteLine("Hello, World!");
 
 // komentar
-double number = 15;
-number += 5;
-number++;
-string text = "Mira";
-Console.WriteLine("Nubber:" + number + " mm");
-Console.WriteLine($"Nubber: {number}");
-FileProcesor fileProcesor = new FileProcesor();
+//double number = 15;
+//number += 5;
+//number++;
+//string text = "Mira";
+//Console.WriteLine("Number:" + number + " mm");
+//Console.WriteLine($"Number:{number} mm");
+//FileProcesor fileProcesor = new FileProcesor();
 // Vytvořím instanci (objekt) třídy FileProcessor s názvem fileProcessor
-// new FileProcesor() = kontruktor
-fileProcesor.Path = @"C:\Users\josef.hanacek\source\repos\Wind.UI\Wind.UI\files";
-fileProcesor.LoadFile();
+//new FileProcesor() = kontruktor
+
+Processor processor = new Processor(); 
+processor.Run();
+
+
+
+
+
 Console.ReadLine();
