@@ -12,21 +12,26 @@ namespace Logic
         public void Run()
         {
             //PeopleProcess();
-            
-            
+            //CarProcess();
+            Animal animal = new Animal(4);
+
+            Console.WriteLine(animal.NumberOfLegs);
+
+            Animal papousek = new Animal(2, "Žoli");
+
+          
+        }
+
+        private void CarProcess()
+        {
             Car mirekCar = new Car();
             mirekCar.SetMark("Peugeot");
             Console.WriteLine("Mirek has car with mark:" + mirekCar.GetMark());
-           
-            
-           
-            Console.ReadLine();
-
-
-
-
-
-
+            mirekCar.Color = "blue";
+            mirekCar.Horn();
+            mirekCar.Horn();
+            mirekCar.Horn(10);
+            Console.WriteLine($"Mirek horned {mirekCar.NumberOfHorns} times");
         }
 
         private void PeopleProcess()
